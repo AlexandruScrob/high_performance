@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12902b9-b17a-4b0a-b882-1d6725ba2917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch4_dictionaries_and_sets/dict_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch4_dictionaries_and_sets/namespace_and_lookups.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_iterators_and_generators/fibonacci_gen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch5_iterators_and_generators/lazily_reading_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch8_asyncronous_io/asyncio_scrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch8_asyncronous_io/batched_results.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2_profiling_to_find_bottlenecks/ch2_julia_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\high_performance\ch6_compiling_to_C" />
       <recent name="C:\Users\User\PycharmProjects\high_performance\ch2_profiling_to_find_bottlenecks" />
       <recent name="C:\Users\User\PycharmProjects\high_performance\ch3_lists_and_tuples" />
       <recent name="C:\Users\User\PycharmProjects\high_performance\ch1_understanding_performant_python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dict_ex">
-    <configuration name="ch2_load_profile_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.batched_results">
+    <configuration name="asyncio_scrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="high_performance" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch8_asyncronous_io" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\high_performance\ch2_profiling_to_find_bottlenecks\ch2_load_profile_stats.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch8_asyncronous_io/asyncio_scrapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch2_no_profile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="batched_results" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="high_performance" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch8_asyncronous_io" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\high_performance\ch2_profiling_to_find_bottlenecks\ch2_no_profile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch8_asyncronous_io/batched_results.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch2_speed_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gevent_scrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="high_performance" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch8_asyncronous_io" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\high_performance\ch2_profiling_to_find_bottlenecks\ch2_speed_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch8_asyncronous_io/gevent_scrapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch3_exercise_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="serial_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="high_performance" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch8_asyncronous_io" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\User\PycharmProjects\high_performance\ch3_lists_and_tuples\ch3_exercise_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch8_asyncronous_io/serial_crawler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dict_ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="high_performance" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4_dictionaries_and_sets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6_compiling_to_C" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch4_dictionaries_and_sets/dict_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6_compiling_to_C/setup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dict_ex" />
-        <item itemvalue="Python.ch3_exercise_1" />
-        <item itemvalue="Python.ch2_speed_ex" />
-        <item itemvalue="Python.ch2_no_profile" />
-        <item itemvalue="Python.ch2_load_profile_stats" />
+        <item itemvalue="Python.batched_results" />
+        <item itemvalue="Python.asyncio_scrapper" />
+        <item itemvalue="Python.gevent_scrapper" />
+        <item itemvalue="Python.serial_crawler" />
+        <item itemvalue="Python.setup" />
       </list>
     </recent_temporary>
   </component>
