@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12902b9-b17a-4b0a-b882-1d6725ba2917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ch8_asyncronous_io/asyncio_scrapper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch8_asyncronous_io/batched_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch8_asyncronous_io/async_cpu_workload.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2_profiling_to_find_bottlenecks/ch2_julia_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -5,7 +5,6 @@ import string
 import aiohttp
 
 import bcrypt
-import requests
 
 
 def do_task(_, difficulty):
