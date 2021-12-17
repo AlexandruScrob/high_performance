@@ -50,5 +50,7 @@ if __name__ == "__main__":
         (delayed(estimate_nbr_points_in_quarter_circle) \
              (nbr_samples_per_worker) for sample_idx in
          range(nbr_parallel_blocks))
+    pi_estimate = sum(nbr_in_quarter_unit_circles) * 4 / float(
+        nbr_samples_in_total)
     print("Estimated pi", pi_estimate)
     print("Delta:", time.time() - t1)
